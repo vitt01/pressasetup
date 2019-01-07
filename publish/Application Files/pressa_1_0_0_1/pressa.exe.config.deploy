@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="pressa.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false"/>
+        </sectionGroup>
+    </configSections>
+    <connectionStrings />
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/>
+    </startup>
+    <userSettings>
+        <pressa.My.MySettings>
+            <setting name="modifica" serializeAs="String">
+                <value>I:\\</value>
+            </setting>
+            <setting name="serversql" serializeAs="String">
+                <value>192.168.2.166</value>
+            </setting>
+            <setting name="porta" serializeAs="String">
+                <value>3306</value>
+            </setting>
+            <setting name="database" serializeAs="String">
+                <value>ralox01betasql</value>
+            </setting>
+        </pressa.My.MySettings>
+    </userSettings>
+</configuration>
